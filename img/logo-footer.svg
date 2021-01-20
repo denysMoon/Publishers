@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 44" width="114" height="44">
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 48px;fill: #343434;font-weight: bold;font-family: "Gerbera";text-anchor: middle } 
+	</style>
+	<g id="футер">
+		<text id="Adsy" style="transform: matrix(1,0,0,1,57.232,33.539)" >
+			<tspan x="0" y="0" class="txt0">Adsy</tspan>
+		</text>
+	</g>
+</svg>

@@ -1,0 +1,117 @@
+.howitworks{
+    height: auto;
+}
+.how__title{
+    width: 1271px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 205px;
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Conv_Gerbera Black';
+    color: #0d0d0d;
+}
+.how__title::after {
+    display: block;
+    width: 330px;
+    content: '';
+    border-bottom: 5px solid #cccccc;
+}
+.how__container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 144px;
+    max-width: 1271px;
+    height: 404px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcfc;
+    box-shadow: 5px -5px #f1f1f1;
+}
+.how__block{
+    max-width: 1100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    .how__item{
+        margin-top: 50px;
+        width: 225px;
+        img{
+            height: 47px;
+            display: block;
+            margin-top: 36px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            margin-top: 40px;
+            font-size: 18px;
+            font-family: 'Conv_Gerbera Light';
+            line-height: 27px;
+            color: #5f5f5f;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: $screen-lg-max){
+    .how__block{
+        max-width: 900px;
+        .how__item{
+            flex: 25%;
+        }
+    }
+}
+@media screen and (max-width: $screen-md-max){
+    .how__block{
+        width: 700px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        .how__item{
+            width: 300px;
+        }
+    }
+}
+@media screen and (max-width: $screen-sm-max){
+    .how__block{
+        max-width: 500px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.how__footer{
+    margin-top: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: $screen-lg-max){
+    .how__footer{
+        width: 100%;
+    }
+}
+
+.how__footer_button{
+    width: 351px;
+    height: 65px;
+    background-color: #08cbd7;
+    font-size: 25px;
+    font-family: 'Conv_Gerbera Black';
+    border-radius: 30px;
+}

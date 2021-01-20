@@ -1,0 +1,97 @@
+.modal__bg_see{
+    display: block;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    top: 250px;
+    margin-left: 25%;
+    width: 730px;
+    height: 429px;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    ;
+    h2{
+        padding-top: 20px;
+        font-size: 36px;
+        color: #343434;
+        font-family: 'Conv_Gerbera Black';
+        text-align: center;
+    }
+}
+.modal__show{
+    display: block;
+}
+.modal__info{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+}
+.modal__info_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+}
+.modal__info_text p{
+    display: block;
+    width: 210px;
+    height: 170px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #343434;
+    border-right: 2px solid #343434;;
+    font-family: 'Conv_Gerbera Light';
+}
+.modal__input{
+    width: 288px;
+    height: 64px;
+    border-radius: 30px;
+    background: none;
+    border: 1px solid #c4c4c4;
+    text-align: center;
+    font-family: 'Conv_Gerbera Light';
+    font-size: 20px;
+    color: #343434;;
+}
+.modal__button_item{
+    width: 288px;
+    height: 64px;
+    background-color: #08cbd7;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Conv_Gerbera Black';
+}
+.modal__info_buttons{
+    width: 288px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sing__in{
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    p{
+        display: block;
+        width: 150px;
+        font-size: 16px;
+        color: #343434;
+        font-family: 'Conv_Gerbera Light';
+    }
+}
+.button__close{
+    display: block;
+    padding-top: 20px;
+    margin-left: 690px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
